@@ -1,0 +1,36 @@
+{
+    "name": "smm-course-search",
+    "version": "1.0.1",
+    "description": "A package for searching courses - Super Mario Maker",
+    "main": "/lib/SmmCourseSearch.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "/test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leomaurodesenv/smm-course-search.git"
+    },
+    "keywords": [
+        "bookmark",
+        "mario",
+        "maker",
+        "super",
+        "nintendo",
+        "course"
+    ],
+    "author": "Leonardo Mauro <leo.mauro.desenv@gmail.com> (http://leonardomauro.com/)",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/leomaurodesenv/smm-course-search/issues"
+    },
+    "homepage": "https://github.com/leomaurodesenv/smm-course-search",
+    "dependencies": {
+        "htmlparser2": "3.9.2",
+        "node-datetime": "2.0.0",
+        "request": "2.81.0"
+    }
+}
