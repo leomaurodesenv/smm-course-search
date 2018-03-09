@@ -1,8 +1,8 @@
 {
     "name": "smm-course-search",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A package for searching courses - Super Mario Maker",
-    "main": "/lib/SmmCourseSearch.js",
+    "main": "lib/SmmCourseSearch.js",
     "directories": {
         "lib": "lib",
         "test": "test"
