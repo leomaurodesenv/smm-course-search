@@ -1,6 +1,6 @@
 {
     "name": "smm-course-search",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A package for searching courses - Super Mario Maker",
     "main": "lib/SmmCourseSearch.js",
     "directories": {
@@ -30,7 +30,7 @@
     "homepage": "https://github.com/leomaurodesenv/smm-course-search",
     "dependencies": {
         "htmlparser2": "3.9.2",
-        "node-datetime": "2.0.0",
-        "request": "2.81.0"
+        "node-datetime": "2.0.6",
+        "request": "2.85.0"
     }
 }
