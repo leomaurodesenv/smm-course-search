@@ -17,7 +17,7 @@ ___
 ### Installation
 
 ```shell
-npm install --save smm-maker-profile
+npm install --save smm-course-search
 ```
    
 ___
