@@ -14,6 +14,14 @@ Note: This module makes analysis on the html structure of the bookmark site. In 
 
 ___
 
+### Installation
+
+```shell
+npm install --save smm-maker-profile
+```
+   
+___
+
 ### Json `courses`    
 The data information retrive:    
 
