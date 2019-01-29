@@ -29,8 +29,8 @@
     },
     "homepage": "https://github.com/leomaurodesenv/smm-course-search",
     "dependencies": {
-        "htmlparser2": "3.9.2",
-        "node-datetime": "2.0.6",
-        "request": "2.85.0"
+        "htmlparser2": "^3.10.0",
+        "node-datetime": "^2.1.2",
+        "request": "^2.88.0"
     }
 }
