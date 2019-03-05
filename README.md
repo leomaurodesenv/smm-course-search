@@ -1,7 +1,6 @@
-# smm-course-search #
+# smm-course-search
 
-Links:      
-[JsClasses](https://www.jsclasses.org/smm-course-search), [npm](https://www.npmjs.com/package/smm-course-search) and [Github](https://github.com/leomaurodesenv/smm-course-search)   
+Links: [JsClasses](https://www.jsclasses.org/smm-course-search), [npm](https://www.npmjs.com/package/smm-course-search) and [Github](https://github.com/leomaurodesenv/smm-course-search)   
 
 ___
    
@@ -60,8 +59,8 @@ ___
   |__ test.js
 ```
    
-* SmmCourseSearch.js: main file to request;   
-* test.js: simple example how use it;   
+* SmmCourseSearch.js: main file to request.
+* test.js: simple example.
    
 ___
    
@@ -120,9 +119,9 @@ SmmCourseSearch.getCourses(query, function(error, courses){
 });
 ```
    
-___
-   
-## Also look ~  	
+---  
+### Also look ~
+
 * [License GPL v3](LICENSE)
 * Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
 * Git: [leomaurodesenv](https://github.com/leomaurodesenv/)

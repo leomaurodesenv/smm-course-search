@@ -1,6 +1,6 @@
 {
     "name": "smm-course-search",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A package for searching courses - Super Mario Maker",
     "main": "lib/SmmCourseSearch.js",
     "directories": {
@@ -23,7 +23,7 @@
         "course"
     ],
     "author": "Leonardo Mauro <leo.mauro.desenv@gmail.com> (http://leonardomauro.com/)",
-    "license": "UNLICENSED",
+    "license": "GPL-3.0-only",
     "bugs": {
         "url": "https://github.com/leomaurodesenv/smm-course-search/issues"
     },
