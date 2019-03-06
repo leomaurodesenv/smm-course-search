@@ -2,8 +2,7 @@
 
 Links: [JsClasses](https://www.jsclasses.org/smm-course-search), [npm](https://www.npmjs.com/package/smm-course-search) and [Github](https://github.com/leomaurodesenv/smm-course-search)   
 
-___
-   
+---
 Super Mario Maker is a game from Nintendo Inc. This module can search courses from the official [bookmark site](https://supermariomakerbookmark.nintendo.net).    
 This module can request and fetching courses data information just passing a query search.      
       
@@ -11,16 +10,14 @@ By response the module call a callback function with 2 arguments `(error, course
    
 Note: This module makes analysis on the html structure of the bookmark site. In case of site changes, the `smm-course-search` system may not work correctly.      
 
-___
-
+---
 ### Installation
 
 ```shell
 npm install --save smm-course-search
 ```
    
-___
-
+---
 ### Json `courses`    
 The data information retrive:    
 
@@ -46,24 +43,7 @@ maker:
   \_ name: 'Name'
 ```
    
-___
-
-### Files
-
-```
-/lib/
-  |__ Typography.js
-  |__ CoursesWrapper.js
-  |__ SmmCourseSearch.js
-/test/
-  |__ test.js
-```
-   
-* SmmCourseSearch.js: main file to request.
-* test.js: simple example.
-   
-___
-   
+---
 ### Query Params   
    
 The query search parameters are optional, but must be pass at least one.       
@@ -82,20 +62,17 @@ The query search parameters are optional, but must be pass at least one.
 }
 ```
       
-___
-   
-### Functions   
-   
-there is three functions to search courses:       
-   
-* `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query);   
-* `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages;   
-* `.getInfinity(query, function(error, courses){}`: search all pages;   
-      
-___
+---
+### Functions
 
-   
-## Example  
+There are three functions to search courses:
+- `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query);   
+- `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages;   
+- `.getInfinity(query, function(error, courses){}`: search all pages;   
+      
+---
+## Example
+
 Example: How search courses. See `test/test.js` for other examples.    
    
 ```js
@@ -118,11 +95,11 @@ SmmCourseSearch.getCourses(query, function(error, courses){
     console.timeEnd('test');
 });
 ```
-   
----  
+
+---
 ### Also look ~
 
-* [License GPL v3](LICENSE)
-* Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
-* Git: [leomaurodesenv](https://github.com/leomaurodesenv/)
-* Site: [Portfolio](http://leonardomauro.com/portfolio/)
+- [License GPL v3](LICENSE)
+- Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
+- Git: [leomaurodesenv](https://github.com/leomaurodesenv/)
+- Site: [Portfolio](http://leonardomauro.com/portfolio/)
