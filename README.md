@@ -67,10 +67,12 @@ The query search parameters are optional, but must be pass at least one.
 ### Functions
 
 There are three functions to search courses:
-   
--   `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query). 
--   `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages. 
--   `.getInfinity(query, function(error, courses){}`: search all pages.
+
+-   `.getCourses(query, function(error, courses){}` - return first page (max 10 courses).
+
+-   `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}` - return `n` pages.
+
+-   `.getInfinity(query, function(error, courses){}` - search all pages.
       
 ---
 ## Example
