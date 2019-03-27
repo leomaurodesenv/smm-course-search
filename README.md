@@ -20,7 +20,8 @@ npm install --save smm-course-search
 ---
 ## Package
 
-### Json `courses`    
+### `courses` json
+
 The data information retrive:    
 
 ```js
@@ -45,7 +46,7 @@ maker:
   \_ name: 'Name'
 ```
    
-### Query Params   
+### Query Params
    
 The query search parameters are optional, but must be pass at least one.       
    
@@ -66,8 +67,9 @@ The query search parameters are optional, but must be pass at least one.
 ### Functions
 
 There are three functions to search courses:
-- `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query).
-- `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages.
+
+- `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query). 
+- `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages. 
 - `.getInfinity(query, function(error, courses){}`: search all pages.
       
 ---
