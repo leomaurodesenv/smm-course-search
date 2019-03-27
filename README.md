@@ -11,13 +11,15 @@ By response the module call a callback function with 2 arguments `(error, course
 Note: This module makes analysis on the html structure of the bookmark site. In case of site changes, the `smm-course-search` system may not work correctly.      
 
 ---
-### Installation
+## Installation
 
 ```shell
 npm install --save smm-course-search
 ```
    
 ---
+## Package
+
 ### Json `courses`    
 The data information retrive:    
 
@@ -43,7 +45,6 @@ maker:
   \_ name: 'Name'
 ```
    
----
 ### Query Params   
    
 The query search parameters are optional, but must be pass at least one.       
@@ -62,13 +63,12 @@ The query search parameters are optional, but must be pass at least one.
 }
 ```
       
----
 ### Functions
 
 There are three functions to search courses:
-- `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query);   
-- `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages;   
-- `.getInfinity(query, function(error, courses){}`: search all pages;   
+- `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query).
+- `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages.
+- `.getInfinity(query, function(error, courses){}`: search all pages.
       
 ---
 ## Example
@@ -97,9 +97,7 @@ SmmCourseSearch.getCourses(query, function(error, courses){
 ```
 
 ---
-### Also look ~
+## Also look ~
 
 - [License GPL v3](LICENSE)
-- Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
-- Git: [leomaurodesenv](https://github.com/leomaurodesenv/)
-- Site: [Portfolio](http://leonardomauro.com/portfolio/)
+- Create by Leonardo Mauro ~ [leomaurodesenv](https://github.com/leomaurodesenv/)
