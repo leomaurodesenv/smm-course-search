@@ -3,8 +3,8 @@
 Links: [JsClasses](https://www.jsclasses.org/smm-course-search), [npm](https://www.npmjs.com/package/smm-course-search) and [Github](https://github.com/leomaurodesenv/smm-course-search)   
 
 ---
-Super Mario Maker is a game from Nintendo Inc. This module can search courses from the official [bookmark site](https://supermariomakerbookmark.nintendo.net).    
-This module can request and fetching courses data information just passing a query search.      
+Super Mario Maker is a game from Nintendo Inc. This module can search courses from the official [bookmark site](https://supermariomakerbookmark.nintendo.net).  
+This module can request and fetching courses data information just passing a query search.   
       
 By response the module call a callback function with 2 arguments `(error, courses)`. These arguments: the first is a boolean to check sucess in fetching; and the second is a json with courses informations (like ID, image, maker, difficulty..).      
    
@@ -67,10 +67,10 @@ The query search parameters are optional, but must be pass at least one.
 ### Functions
 
 There are three functions to search courses:
-
-- `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query). 
-- `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages. 
-- `.getInfinity(query, function(error, courses){}`: search all pages.
+   
+-   `.getCourses(query, function(error, courses){}`: return 1 page (first 10 courses by the query). 
+-   `.getCoursesPages(query, (int) firstPage, (int) lastPage, function(error, courses){}`: return n pages. 
+-   `.getInfinity(query, function(error, courses){}`: search all pages.
       
 ---
 ## Example
@@ -101,5 +101,5 @@ SmmCourseSearch.getCourses(query, function(error, courses){
 ---
 ## Also look ~
 
-- [License GPL v3](LICENSE)
-- Create by Leonardo Mauro ~ [leomaurodesenv](https://github.com/leomaurodesenv/)
+-   [License GPL v3](LICENSE)
+-   Create by Leonardo Mauro ~ [leomaurodesenv](https://github.com/leomaurodesenv/)
