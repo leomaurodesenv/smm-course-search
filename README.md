@@ -1,5 +1,8 @@
 # smm-course-search
 
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ccf4226b1b5445b1851187f2144a7ea5)](https://www.codacy.com/app/leomaurodesenv/smm-course-search?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=leomaurodesenv/smm-course-search&amp;utm_campaign=Badge_Grade)
+
 Links: [JsClasses](https://www.jsclasses.org/smm-course-search), [npm](https://www.npmjs.com/package/smm-course-search) and [Github](https://github.com/leomaurodesenv/smm-course-search)   
 
 ---
